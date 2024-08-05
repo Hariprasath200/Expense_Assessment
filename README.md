@@ -1,3 +1,59 @@
+How to Run?
+
+Getting Started
+Prerequisites
+Frontend
+Node.js and npm: Ensure you have Node.js and npm installed.
+Backend
+Python: Ensure you have Python installed.
+Django: Install Django and necessary middleware and packages.
+Required Django packages:
+djangorestframework
+djangorestframework.authtoken
+corsheaders
+django.middleware.csrf
+Installation Steps
+Download the Project
+
+Download the zip file of the project from GitHub.
+Extract the zip file to your desired directory.
+Open Project in Code Editor
+
+Open the project in your preferred code editor, such as Visual Studio Code.
+Install Frontend Dependencies
+
+Open two terminals in your code editor.
+In the first terminal, navigate to the project root directory where the package.json file is located.
+bash
+Copy code
+npm install
+Install Backend Dependencies
+
+In the second terminal, navigate to the backend directory.
+bash
+Copy code
+cd django
+Install the necessary Django packages.
+bash
+Copy code
+pip install django djangorestframework djangorestframework.authtoken corsheaders
+Run the Frontend
+
+Once the node_modules folder is created, run the frontend server.
+bash
+Copy code
+npm start
+Run the Backend
+
+In the second terminal where you navigated to the backend directory, run the Django server.
+bash
+Copy code
+python manage.py runserver
+Access the Application
+
+Open a browser and go to http://localhost:3000 to use the site.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
